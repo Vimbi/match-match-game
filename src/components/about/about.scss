@@ -1,0 +1,46 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.65rem;
+}
+
+.about-wrapper {
+  @include flex-column;
+  width: 40.1rem;
+  height: 50rem;
+}
+
+.about-title {
+  @include medium-text;
+  
+  display: flex;
+  align-items: center;
+  color: $blackShadow87;
+}
+
+.point {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+
+  .point-describe {
+    display: flex;
+    width: 18rem;
+
+    .point-number {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .point-text {
+      @include small-text;
+
+      margin-left: 0.8rem;
+      color: $blackShadow60;
+    }
+  }
+}

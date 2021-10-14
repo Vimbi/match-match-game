@@ -1,0 +1,24 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.score {
+  @include flex-column;
+  width: 50rem;
+  height: 40rem;
+  margin: auto;
+  padding: 2.4rem 4.9rem 0 2.3rem;
+  box-shadow: 0 0.3rem 0.25rem $blackShadow24, 0 0.45rem 0.9rem $blackShadow18;
+}
+
+.score-title {
+  @include medium-text;
+  color: $light-black;
+}
+
+.score-list {
+  @include flex-column;
+}
+
+.player {
+  @include flex-between;
+}

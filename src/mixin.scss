@@ -1,0 +1,75 @@
+@mixin medium-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;  
+  letter-spacing: 0.0075rem;
+}
+
+@mixin small-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  letter-spacing: 0.0125rem;
+}
+
+@mixin vsmall-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.55rem;
+  line-height: 0.8rem;
+  letter-spacing: 0.0625rem;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@mixin flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin form-valid ($n) {
+  box-shadow: 0 0 0.75rem 0 $n inset;
+}
+
+@mixin cards-shadow ($n) {
+  box-shadow: 0 0 1.5rem $n;
+}
+
+@mixin popAndFormWrapper {
+  width: 31.95rem;
+  height: 23rem;
+  padding: 1.05rem;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 99;
+  background: $white;
+  box-shadow: 0 0.2rem 2.5rem $blackShadow30;
+  border-radius: 0.25rem;
+}

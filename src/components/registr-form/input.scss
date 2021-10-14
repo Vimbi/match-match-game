@@ -1,0 +1,21 @@
+.registr-input {
+  width: 16.4rem;
+  height: 2.8rem;
+  padding-left: 0.5rem;
+  background-color: rgba(33, 33, 33, 0.08);
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+}
+
+.input-done {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translateY(-50%);
+}
+
+.display-block {
+  display: block;
+}

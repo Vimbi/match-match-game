@@ -1,0 +1,21 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.win-wrapper {
+  position: fixed;
+  @include flex-column-around;
+  align-items: center;
+  @include popAndFormWrapper;
+}
+
+.win-title {
+  @include medium-text;
+  color: $black;
+}
+
+.ok-button {
+  width: 10rem;
+  height: 1.8rem;
+  background-color: $blue;
+  color: $white;
+}

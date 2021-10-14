@@ -1,0 +1,6 @@
+@import "../../mixin.scss";
+
+.timerform {
+  @include flex-center;
+  height: 2.5rem;
+}

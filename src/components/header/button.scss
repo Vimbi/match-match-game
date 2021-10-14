@@ -1,0 +1,18 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+button {
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: $white;
+  color: $blue;
+  @include small-text;
+  text-transform: uppercase;
+
+  &:hover {
+    transform: translateZ(2rem);
+    box-shadow: 0 0.5rem 1rem $blackShadow50;
+  }
+}

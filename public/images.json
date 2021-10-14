@@ -1,0 +1,72 @@
+[
+  {
+    "category": "unsorted",
+    "images": [
+      [
+        "axolotl.png",
+        "bird-house.png",
+        "bird.png",
+        "boy.png",
+        "cat.png",
+        "chameleon.png",
+        "chicken.png",
+        "dog.png"
+      ],
+      [
+        "axolotl.png",
+        "bird-house.png",
+        "bird.png",
+        "boy.png",
+        "cat.png",
+        "chameleon.png",
+        "chicken.png",
+        "dog.png",
+        "dog-collar.png",
+        "dog-treat.png",
+        "fish-bowl.png",
+        "girl.png",
+        "hamster-wheel.png",
+        "hedgehog.png",
+        "medal.png",
+        "poop.png",
+        "rabbit.png",
+        "sandbox.png"
+      ]
+    ]
+  },
+  {
+    "category": "vehicles",
+    "images": [
+      [
+        "airplane.jpg",
+        "airship.jpg",
+        "balloon.jpg",
+        "bicycle.jpg",
+        "boat.jpg",
+        "bulldozer.jpg",
+        "bus.jpg",
+        "car.jpg"
+      ],
+      [
+        "airplane.jpg",
+        "airship.jpg",
+        "balloon.jpg",
+        "bicycle.jpg",
+        "boat.jpg",
+        "bulldozer.jpg",
+        "bus.jpg",
+        "car.jpg",
+        "dump-truck.jpg",
+        "excavator.jpg",
+        "fire-truck.jpg",
+        "helicopter.jpg",
+        "motorcycle.jpg",
+        "motor-ship.jpg",
+        "tractor.jpg",
+        "train.jpg",
+        "truck.jpg",
+        "yacht.jpg"
+      ]
+    ]
+  }
+]

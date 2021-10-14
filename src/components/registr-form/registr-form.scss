@@ -1,0 +1,61 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.registration-wrapper {
+  position: fixed;
+  @include flex-column;
+  gap: 1rem;
+  @include popAndFormWrapper;
+}
+
+.registration-title {
+  @include medium-text;
+  color: $black;
+}
+
+.registration-content {
+  @include flex-between;
+}
+
+.first-name__wrapper,
+.last-name__wrapper,
+.email-input__wrapper {
+  position: relative;
+}
+
+.registration-inputs__wrapper {
+  @include flex-column;
+  gap: 1rem;
+}
+
+.registration-buttons {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1rem;
+}
+
+.add-button,
+.cancel-button {
+  @include flex-center;
+  width: 5.4rem;
+  height: 1.8rem;
+  background-color: $white-blue;
+  @include small-text;
+  text-transform: uppercase;
+  color: $blue;
+  box-shadow: 0 0 0.1rem $blackShadow12, 0 0.1rem 0.1rem $blackShadow24;
+
+  &:hover {
+    background-color: $blue;
+    color: $white;
+  }
+}
+
+.valid {
+  @include form-valid($green);
+}
+
+.invalid {
+  @include form-valid($red);
+}

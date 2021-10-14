@@ -1,0 +1,10 @@
+@import "../../mixin.scss";
+
+.cards-field {
+  width: 70%;
+  height: 35rem;
+
+  @include flex-center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

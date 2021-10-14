@@ -1,0 +1,21 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.header-wrapper {
+  height: 3.2rem;
+  background-color: $blue;
+  @include flex-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.register-button,
+.start-button,
+.stop-button {
+  width: 10.35rem;
+  height: 1.8rem;
+}
+
+.btn-active {
+  background-color: $dark-blue;
+}

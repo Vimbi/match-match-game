@@ -1,0 +1,24 @@
+@import "../../mixin.scss";
+@import "../../variables.scss";
+
+.logo {
+  width: 4rem;
+  height: 2rem;
+
+  .logo__header {
+    background-color: inherit;
+  }
+
+  .logo__footer {
+    background-color: $white;
+    color: $blue;
+  }
+
+  .logo__header,
+  .logo__footer {
+    height: 1rem;
+    @include vsmall-text;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
